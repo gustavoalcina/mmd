@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+
+}
+
+
+
+
+.cabecalho__marca__nome{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    height: 100px;
+    margin-top: -90px;
+    font-size: 60px;
+    color:#ffffff;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+
+
+
+.apresentacao__conteudo__titulo{
+        font-family: "Russo One", sans-serif;
+        font-weight: 400px;
+        font-style: normal;
+        font-size: 50px;
+        color: #ffffff;
+        margin-top: 350px;
+        margin-left: 70px;
+        
+      
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+
+
+ .apresentacao__conteudo__titulo {
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-left: 70px;
+}
+
+.apresentacao__imagem {
+    width: 15vw;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.sobre {
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 300px;
+    margin-top: -250px;
+    width: 300px;
+}
+
+
+ .rodape {
+    margin-top: 170px;
+    font-size: 40px;
+    color: #ffffff;
+    margin-left: 50px;
+ }
+
+ .rodape_dados {
+    font-size: 25px;
+    color: #ffffff;
+    margin-left: 60px;
+    margin-top: 50px;
+ }
+
+ a{
+    margin-left: 80%;
+    color: #ffffff;
+ }
+
+ /* Smartphones */
+@media (max-width: 1280px) {
+    .cabecalho {
+        padding: 10px;
+    }
+
+    .cabecalho ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cabecalho ul li {
+        margin: 10px 0;
+    }
+
+    .cabecalho__marca {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cabecalho__marca__logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .apresentacao__conteudo {
+        padding: 10px;
+    }
+
+    .apresentacao__imagem {
+        max-width: 100%;
+    }
+}
+
+/* Tablets */
+@media (min-width: 1281px) and (max-width: 2048px) {
+    .cabecalho {
+        padding: 15px;
+    }
+
+    .cabecalho ul {
+        justify-content: center;
+    }
+
+    .cabecalho ul li {
+        margin: 0 10px;
+    }
+
+    .cabecalho__marca__logo {
+        width: 45px;
+        height: 45px;
+    }
+
+    .apresentacao__conteudo {
+        padding: 15px;
+    }
+
+    .apresentacao__imagem {
+        max-width: 50%;
+    }
+}
+
+/* Desktops */
+@media (min-width: 2049px) and (max-width: 2560px) {
+    .cabecalho {
+        padding: 20px 40px;
+    }
+
+    .cabecalho ul {
+        justify-content: flex-end;
+    }
+
+    .cabecalho ul li {
+        margin: 0 15px;
+    }
+
+    .cabecalho__marca__logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .apresentacao__conteudo {
+        padding: 20px 40px;
+    }
+
+    .apresentacao__imagem {
+        max-width: 40%;
+    }
+}
+
+/* Estilos adicionais para desktops grandes */
+@media (min-width: 2561px) {
+    .cabecalho {
+        padding: 30px 60px;
+    }
+
+    .cabecalho__marca__logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .apresentacao__conteudo {
+        padding: 30px 60px;
+    }
+
+    .apresentacao__imagem {
+        max-width: 30%;
+    }
+}
