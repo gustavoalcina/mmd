@@ -1,1 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .tauri-regular {
+        font-family: "Tauri", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+    }
+    body{
+        background-color: rgb(0, 0, 0);
+        height: 100vh;
+    }
+    .menu{max-width: 1280px;
+    margin: 0 auto;
+    }
+    .flex{
+        display: flex;
+    }
+    header {
+        padding: 40px 4%;
+    
+    }
+    header > .menu{
+    
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    header a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        display: inline-block;
+        transition: .2s;
+    }
+    header a:hover{
+        color: white;
+        transform: scale(1.05);
+    }
+    header nav ul{
+        list-style-type: none;
+    }
+    header nav ul li{
+        display: inline-block;
+        padding: 0 40px;
+    }
+    section.topodosite{
+        padding: 40px 4%;
+    }
+    section.topodosite.flex{
+        align-items: center;
+        justify-content: center;
+        gap: 90px;
+    }
+    .topodosite h1{
+color: rgb(255, 255, 255);
+font-size: 38px;
+line-height: 40px;
+    }
+    .topodosite .txttoposite h1 span{
+        color: rgb(255, 255, 255);
+    }
+    .topodosite .txttoposite p{
+    color: rgb(255, 255, 255);
+    margin: 40px 0;
+    }
+    .topodosite .img-topo-site{
+        position: relative;
+    }
+    .hard{
+        margin-left: -600px;
+        margin-top: 150px;
+        color: white;
+    }
+    .soft{
+        margin-left: -30px;
+        margin-top: -80px;
+        color: white;
+    }
+    .git{
+        color: rgb(255, 255, 255);
+        width: 3%;
+    }
+    .insta{
+        width: 3%;
+        color: rgb(255, 255, 255);
 
+    }
+    .x{
+        width: 3%;
+        color: rgb(255, 255, 255);
+}
+    footer{
+        background-color: rgb(0, 0, 0);
+        color: white;
+        padding: 3px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 998;
+    }
+  p{
+    width: 900px;
+  }
+  
+/* Smartphones */
+@media (max-width: 1280px) {
+    .menu-desktop ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-desktop ul li {
+        margin: 10px 0;
+    }
+
+    .topodosite h1 {
+        font-size: 2em;
+    }
+
+    .topodosite p {
+        font-size: 1em;
+    }
+
+    .hard, .soft {
+        margin: 10px 0;
+    }
+
+    .hard ul li, .soft ul li {
+        margin: 3px 0;
+    }
+
+    .apresentacao__links a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Tablets */
+@media (min-width: 1281px) and (max-width: 2048px) {
+    .menu-desktop ul {
+        justify-content: space-around;
+    }
+
+    .menu-desktop ul li {
+        margin: 0 10px;
+    }
+
+    .topodosite h1 {
+        font-size: 2.2em;
+    }
+
+    .topodosite p {
+        font-size: 1.1em;
+    }
+
+    .hard ul li, .soft ul li {
+        margin: 4px 0;
+    }
+
+    .apresentacao__links a {
+        margin: 15px;
+    }
+}
+
+/* Desktops */
+@media (min-width: 2049px) {
+    .menu-desktop ul {
+        justify-content: flex-end;
+    }
+
+    .menu-desktop ul li {
+        margin: 0 20px;
+    }
+
+    .topodosite h1 {
+        font-size: 2.5em;
+    }
+
+    .topodosite p {
+        font-size: 1.2em;
+    }
+
+    .hard ul li, .soft ul li {
+        margin: 5px 0;
+    }
+
+    .apresentacao__links a {
+        margin: 20px;
+    }
+}
